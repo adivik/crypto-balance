@@ -1,0 +1,12 @@
+<div class="container">
+    <h1 class="heading">Search your Bitcoin balance</h1>
+    <div>
+    <input #address class="input" placeholder="Enter your bitcoin wallet address here"/>
+    <button class="btn" (click)="CheckBal(address.value)">Check</button></div>
+    <h3>Balance: {{bal}} </h3>
+    <h3>Total Bitcoin sent: {{sent}} </h3>
+    <h3>Total Bitcoin received: {{rec}} </h3>
+    <h3>Number of Transactions on this address: {{tno}} </h3>
+    
+
+</div>
